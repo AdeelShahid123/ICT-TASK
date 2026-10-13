@@ -1,0 +1,81 @@
+<html>
+  <head>
+    <title>Reservation Form</title>
+    <style>
+      body {
+        background-color: lightgray;
+      }
+      h2 {
+        color: red;
+      }
+      th {
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+
+    <h2 align="center">Continental Hotel Reservation Form</h2>
+
+    <form action="/action_page.php">
+      <table border="1" align="center" style="background-color: lightblue;">
+        <tr>
+          <th>Name</th>
+          <td><input type="text" id="name" name="name"></td>
+        </tr>
+        <tr>
+          <th>eMail</th>
+          <td><input type="text" id="email" name="email" value="info@continental.pk"></td>
+        </tr>
+        <tr>
+          <th>Mobile No</th>
+          <td><input type="text" id="mobile" name="mobile"></td>
+        </tr>
+        <tr>
+          <th>Arrival Time</th>
+          <td><input type="text" id="arrival" name="arrival"></td>
+        </tr>
+        <tr>
+          <th>Departure</th>
+          <td>
+            <input type="text" id="dep_date" name="dep_date">
+            <input type="text" id="dep_time" name="dep_time">
+          </td>
+        </tr>
+        <tr>
+          <th>Room Type</th>
+          <td>
+            <input type="radio" id="single" name="room" value="Single"> <label for="single">Single</label>
+            <input type="radio" id="double" name="room" value="Double"> <label for="double">Double</label><br>
+            <input type="radio" id="presidential" name="room" value="Presidential Suite"> <label for="presidential">Presidential Suite</label>
+          </td>
+        </tr>
+        <tr>
+          <th>Preferences</th>
+          <td>
+            <input type="checkbox" id="nonsmoking" name="pref1" value="Non-Smoking"> <label for="nonsmoking">Non-Smoking</label><br>
+            <input type="checkbox" id="internet" name="pref2" value="Internet"> <label for="internet">Internet</label><br>
+            <input type="checkbox" id="firm" name="pref3" value="Firm Mattress"> <label for="firm">Firm Mattress</label>
+          </td>
+        </tr>
+        <tr>
+          <th>Mode of Payment</th>
+          <td>
+            <input type="checkbox" id="cash" name="pay1" value="Cash"> <label for="cash">Cash</label>
+            <input type="checkbox" id="check" name="pay2" value="Check"> <label for="check">Check</label><br>
+            <input type="checkbox" id="credit" name="pay3" value="Credit Card"> <label for="credit">Credit Card</label>
+            <select id="card" name="card">
+              <option value="select">Select Card</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2" align="center">
+            <input type="submit" value="Send Data">
+          </td>
+        </tr>
+      </table>
+    </form>
+
+  </body>
+</html>

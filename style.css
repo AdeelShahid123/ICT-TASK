@@ -1,0 +1,77 @@
+/* Body and General Styles */
+body {
+  background-color: #e0f2f1; /* Light background mimicking the image */
+  font-family: Arial;
+}
+
+/* Header Div properties */
+#header {
+  background-color: #a2e8e4;
+  padding: 15px;
+  margin: 10px;
+  text-align: right;
+}
+
+#header h1 {
+  color: #008080;
+  font-weight: normal;
+  margin: 0px;
+  padding: 0px;
+}
+
+#header span {
+  color: #555555;
+  font-family: Arial;
+}
+
+/* Reusable Box properties */
+.box {
+  border: 6px solid #a2e8e4;
+  padding: 15px;
+  margin: 10px;
+  background-color: white;
+}
+
+/* Friends Sidebar (Floated Left) */
+#sidebar {
+  float: left;
+  background-color: #4cd3c7;
+  width: 20%; 
+}
+
+#sidebar h2 {
+  color: #008080;
+  font-weight: normal;
+  text-align: center;
+  margin-top: 0px;
+}
+
+#sidebar ul {
+  color: #008080;
+}
+
+/* Main Content Area (Floated Right) */
+#main-content {
+  float: right;
+  width: 73%;
+}
+
+/* Entry Headings */
+.entry h2 {
+  color: #3b9e98;
+  font-weight: normal;
+  border-bottom: 2px dashed #3b9e98; /* Dashed line exactly like the image */
+  padding-bottom: 5px;
+  margin-top: 0px;
+}
+
+/* Image Float property */
+.image-right {
+  float: right;
+  margin: 10px;
+}
+
+/* Paragraph text */
+p {
+  color: #b58b87;
+}
